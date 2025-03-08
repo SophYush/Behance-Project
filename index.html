@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Germany Bubble Cluster Map</title>
+    <title>Cluster Map of Behance Users: Germany</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            margin: 10px;
+        }
+        #map-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Germany Bubble Cluster Map</h1>
-    <iframe src="germany_bubble_cluster_map.html" width="100%" height="600px" style="border:none;"></iframe>
+    <div id="map-container">
+        <iframe src="germany_bubble_cluster_map.html"></iframe>
+    </div>
 </body>
 </html>
